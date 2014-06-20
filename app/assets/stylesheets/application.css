@@ -52,6 +52,14 @@ header {
   background-color: white;
   padding: 20px;
 }
+.left-column {
+  float: left;
+  width: 400px;
+}
+.right-column {
+  float: right;
+  width: 400px;
+}
 ul#products {
   list-style: none;
 }

@@ -6,6 +6,11 @@ class SiteController < ApplicationController
   # index.xml.builder
   # index.pdf.erb
   def index
+    @products = Product.all
+    @cars = Car.all
+  end
+
+  def about
 
   end
 
